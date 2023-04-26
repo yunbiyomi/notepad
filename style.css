@@ -1,0 +1,117 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background: #d3d3d3;
+}
+
+h1 {
+    text-align: center;
+    width: 250px;
+    margin: 40px auto;
+    color: #4e4e4e;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.writeBox {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.box {
+    border: none;
+}
+
+button {
+    background: inherit; 
+    border:none;
+    box-shadow:none; 
+    border-radius:0; 
+    padding:0; 
+    overflow:visible; 
+    cursor:pointer
+} 
+
+input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+}
+
+textarea {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: 5px 0;
+    resize: none;
+}
+
+.writeBtn {
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    color: #4e4e4e;
+}
+
+.writeBtn:hover {
+    color: white;
+}
+
+#display {
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
+    background-color: white;
+}
+
+#display.div {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+h2 {
+    width: 100%;
+    display: inline-block;
+    padding-left: 10px;
+    background: rgb(241, 241, 241);
+}
+
+#display > button {
+    font-size: 15px;
+    color: #4e4e4e;
+}
+
+#display > button:hover {
+    color: rgb(218, 0, 0);
+}
+
+#display > button::after {
+    display: inline-block;
+	content: " ";
+    bottom: 500px;
+	width: 100%;
+	height: 1px;
+	background-color: rgb(187, 187, 187);
+    margin: 15px 0;
+}
